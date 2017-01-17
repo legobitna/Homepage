@@ -1,0 +1,425 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+    font-size:14px;
+   
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+
+}
+h4 {
+     line-height:30px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+img.left{
+	float:left;
+       
+}
+.text-3{
+ text-align: center;
+  font-size: 60px;
+  line-height: 40px;
+  padding-top: 99px;
+  margin-bottom: 32px;
+}
+
+.text-2 {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 36px;
+}
+.color1 {
+  color: #287e7d;
+}
+.ccc{
+margin-left:350px;
+
+
+}
+
+h2 span {
+  padding-top: 26px;
+  display: block;
+  font: 300 20px/24px 'Open Sans', sans-serif;
+}
+
+.text-1 {
+  font: 300 36px/40px 'Open Sans Condensed', sans-serif;
+  color: #287e7d;
+  margin-bottom: 16px;
+}
+p.offset__1 {
+  margin-bottom: 31px;
+}
+
+section {
+    padding-top:100px;
+    padding-bottom:30px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+.g-pad-bottom2 {
+    padding-bottom:60px;
+}
+
+#body {
+	background: url(../img/bg-home.png) no-repeat center top;
+	border-top: 2px solid #252525;
+	padding-top: 100px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 18px;
+}
+
+.navbar-inverse {
+background: #fff;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #000;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #000;
+}
+.navbar-toggle {
+    background-color: black;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+
+#home-sec { 
+  
+    
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+
+
+#home-sec2 { 
+  
+    
+background: url(../img/background.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+#home-sec3 { 
+  
+    
+background: url(../img/hobby.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+#home-sec4 { 
+  
+    
+background: url(../img/friends.jpeg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+
+.head-main {
+    font-size:80px ;
+    font-weight:900;
+    padding:15px;
+    text-transform:uppercase;
+    
+}
+
+.head-last {
+     margin-top:70px;
+    font-size:25px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    padding:5px;
+}
+
+.pink{
+background-color=#FF7F50;
+}
+
+/*=======================================
+    SKILL BAR STYLES
+==================================================*/
+
+
+.progress-adjust {
+    height: 10px;
+     margin-bottom: 0px; 
+}
+.skill-div {
+    margin-top:10px; 
+}
+
+.progress {
+    min-height:40px;
+}
+
+/* ===========================================================
+    INTRO /ABOUT 
+   ============================================================*/
+.panel-title-adjust{
+font-size: 20px;
+padding: 5px;
+}
+
+    .panel-title-adjust a:hover {
+        text-decoration:none;
+    }
+.panel-title-adjust i {
+        padding-right:5px;
+    }
+/*=======================================
+    TESTIMONIAL STYLES
+==================================================*/
+
+#carousel-example {
+    margin:20px;
+
+}
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}
+
+.user-img {
+border: 2px solid #000;
+overflow: hidden;
+border-radius: 50%;
+display: inline-block;
+}
+
+.img-u {
+   max-height: 90px;
+max-width: 90px;
+}
+
+.c-set {
+    font-style: italic;
+font-size: 20px;
+padding: 15px;
+}
+#testimonial { 
+  
+    
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+/* ===========================================================
+   PRICING STYLE   
+   ============================================================*/
+.plan {
+padding: 0 0 15px 0;
+margin: 30px 0px;
+list-style: none;
+text-align: center;
+}
+
+.plan li {
+padding: 15px 0px;
+font-size: 16px;
+border-bottom: 1px dotted #e1e1e1;
+}
+
+.round-body {
+display: table;
+width: 150px;
+height: 150px;
+margin: 0 auto 14px auto;
+border: 3px solid white;
+border-radius: 100%;
+}
+
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+}
+
+
+/*=======================================
+    treasure map style
+==================================================*/
+#body div h1 {
+	background: url(../img/bg-border2.gif) no-repeat center bottom;
+	color: #FC416F;
+	font-family: 'Arial Black';
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#body.running div {
+	padding: 800px 0 800px;
+}
+#body div {
+	background: url(../img/bg-transparent2.png) repeat;
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 800px 0 800px;
+}
+
+
+
+#body.running div {
+	padding: 58px 0 20px;
+}
+td{
+
+text-align:center;
+
+font-size: 25px;
+font-weight: bold;
+color: #FFFFFF
+}
+
+#body div ul.gallery {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0 0 76px;
+	max-width: none;
+	padding: 72px 0 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
